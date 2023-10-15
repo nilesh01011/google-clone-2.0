@@ -8,7 +8,7 @@ import SearchHeaderOptions from './SearchHeaderOptions';
 
 function SearchHeader() {
   return (
-    <header className="sticky top-0 bg-[#303134] rounded-[0_0_45px_45px]">
+    <header className="sticky top-0 bg-[#303134] md:rounded-[0_0_45px_45px] rounded-0">
       {/* shadow-[0_1px_6px_0_rgba(0,0,0,0.6)] */}
       <div className="flex w-full p-6 items-center justify-between xs:flex-row flex-col">
         <Link href={'/'}>

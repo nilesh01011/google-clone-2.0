@@ -42,7 +42,7 @@ function HomeSearch() {
       </form>
 
       {/* buttons */}
-      <div className="flex flex-col space-y-2 sm:space-y-0 sm:space-x-4 justify-center sm:flex-row mt-8 ">
+      <div className="flex space-x-4 justify-center mt-8">
         <button onClick={handleSubmit} className="btn">
           Google Search
         </button>

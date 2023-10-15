@@ -11,7 +11,7 @@ export default function SearchBox() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const searchTerm = searchParams.get('searchTerm');
-  const [term, setTerm] = useState(searchTerm || '');
+  const [term, setTerm] = useState(searchTerm ? searchTerm : '');
   function handleSubmit(e) {
     e.preventDefault();
     if (!term.trim()) return;
